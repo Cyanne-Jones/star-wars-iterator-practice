@@ -116,8 +116,7 @@ const critters = [
 
 // SECOND PROMPT (Hot)
 // Return an array of the names of critters born before the Republic fell in 19 BBY
-// ex: 
-// [
+// ex: [
 //   'Anakin Skywalker',
 //   'Obi Wan Kenobi',
 //   'Mission Vao',
@@ -128,4 +127,24 @@ const critters = [
 //   'Boba Fett',
 //   'Padme Amidala'
 // ]
+
+// CODE GOES HERE
+
+
+// THIRD PROMPT (Fire)
+// Return an array of all non-humans from the outer rim
+// ex: [
+//   {
+//     name: 'Mission Vao',
+//     species: 'twilek',
+//     birthYear: 3970,
+//     homePlanet: 'Taris'
+//   },
+//   {
+//     name: 'Jabba Desilijic Tiure',
+//     species: 'hutt',
+//     birthYear: 600,
+//     homePlanet: 'Tatooine'
+//   }
+// ];
 
