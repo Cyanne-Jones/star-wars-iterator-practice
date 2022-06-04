@@ -6,7 +6,7 @@ const prompts = require('./star-wars-iterator-practice.js');
 
 describe('Star Wars Prompts', () => {
 
-  it('Should get Tatooine Critters', () => {
+  it.skip('Should get Tatooine Critters', () => {
     const e = prompts.getTatooineCritters()
       expect(e).to.deep.equal([
             {
@@ -30,7 +30,7 @@ describe('Star Wars Prompts', () => {
           ]);
   });
 
-  it('Should get critters born before the fall of the Republic', () => {
+  it.skip('Should get critters born before the fall of the Republic', () => {
     const e = prompts.getRepublicCritters();
     expect(e).to.deep.equal([
           'Anakin Skywalker',
@@ -45,7 +45,7 @@ describe('Star Wars Prompts', () => {
         ]);
   });
 
-  it('Should get non-human Outer Rim critters', () => {
+  it.skip('Should get non-human Outer Rim critters', () => {
     const e = prompts.getNonHumanOuterRimCritters();
     expect(e).to.deep.equal([
           {
@@ -63,7 +63,7 @@ describe('Star Wars Prompts', () => {
         ]);
   });
 
-  it('Should get planets and their inhabitants', () => {
+  it.skip('Should get planets and their inhabitants', () => {
     const e = prompts.getPlanetsAndInhabitants();
     expect(e).to.deep.equal({
         Coruscant: [],
