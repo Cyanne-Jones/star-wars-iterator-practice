@@ -6,7 +6,8 @@
 
 - Clone down this repo on your local machine
 - CD into the local repo and run `npm install` in the command line
-- Unskip the tests and try to pass them!
+- Unskip the tests and try to pass!
+- Use `npm test star-wars-iterator-practice-test.js` to run the tests
 
 #### May the force be with you!
 
