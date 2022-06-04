@@ -1,0 +1,20 @@
+{
+  "name": "star-wars-iterator-practice",
+  "version": "1.0.0",
+  "description": "Practice problems for outta this world iterators",
+  "main": "star-wars-iterator-practice.js",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0",
+    "webpack": "^5.73.0",
+    "mocha-clean": "^1.0.0"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --reporter dot --require mocha-clean"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^8.4.0",
+    "mochapack": "^2.1.2"
+  }
+}
